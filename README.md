@@ -33,6 +33,14 @@ For model evaluation, I use the RMSE measure from the helper rmse function to ca
 We begin by running the predict function to test the model on both the train data and test data, then we compare the predictions of y vs the actual y to get the rmse values.
 Generally, the analytical solution will have the lowest error (closed-form). The iterative approach can do well given the right hyperparameters, but it will only ever be as good
 as the analytic approach.
+
+Closed-form RMSE:
+- *Train:* 0.6487
+- *Test:* 0.6451
+
+LMS RMSE:
+- *Average Train:* 0.9746
+- *Average Test:* 1.0104
   
 **4. Visualization:**
 
